@@ -73,8 +73,8 @@ inputs:
     default: false
   kvm:
     description: 'Enable KVM for configs.'
-    required: false
-    default: false
+    required: true
+    default: true
   ccache:
     description: 'Enable Ccache for compiling kernel'
     required: false
